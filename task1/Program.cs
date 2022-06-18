@@ -17,3 +17,10 @@ for (int k = 0; k < 4; k++)
         count++;
     }
 }
+
+for (int j = 0; j < newArrayLength; j++)
+{
+    Console.Write(newArray[j]);
+    if (j < newArrayLength - 1) 
+    Console.Write("; ");
+}
