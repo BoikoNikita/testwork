@@ -7,3 +7,13 @@ for (int i = 0; i < 4; i++)
     newArrayLength++;
 }
 string[] newArray = new string[newArrayLength];
+
+int count = 0; 
+for (int k = 0; k < 4; k++)
+{
+    if (array[k].Length <= 3)
+    {
+        newArray[count] = array[k];
+        count++;
+    }
+}
